@@ -18,8 +18,8 @@ class TextGenerator:
             do_sample=True,             # permite generación aleatoria
             temperature=0.7,            # controla creatividad (más alto = más creativo)
             top_p=0.9,                  # nucleus sampling (mejora coherencia)
-            repetition_penalty=1.2,     # evita repetir palabras
-            pad_token_id=50256         # token de padding para evitar errores
+            repetition_penalty=1.2,     
+            pad_token_id=50256         
         )
 
         # Retornamos solo el texto generado (sin metadatos)
